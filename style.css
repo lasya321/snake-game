@@ -1,0 +1,96 @@
+body{
+	height:100%;
+	width:100%;
+	position:fixed;
+}
+#slider{
+  writing-mode: bt-lr; /* IE */
+  -webkit-appearance: slider-vertical; /* WebKit */
+}
+
+#arrowCont {
+	
+position: absolute;
+	
+width: 100%;
+	
+height: 12vh;
+	
+bottom: 10vh;
+}
+
+
+
+.arrows {
+	
+height: 80%;
+}
+
+
+
+
+#right {
+	
+float: right;
+
+transform:scale(1.5,1.5);
+	
+opacity: 0.9;
+	
+margin-right: 20%;
+	
+background-color: 
+transparent;
+	
+border-radius: 50%;
+	-webkit-user-select: none;
+	
+-webkit-touch-callout: none;
+
+}
+
+
+
+#left {
+	
+float: left;
+
+transform:scale(1.5,1.5);
+	
+opacity: 0.9;
+	
+margin-left: 20%;
+	
+background-color: transparent;
+	
+border-radius: 50%;
+-webkit-user-select: none;
+	
+-webkit-touch-callout: none;
+	
+}
+
+
+#scoreId {
+	
+   position: fixed;
+   left: 50%;
+   transform: translate(-50%, 0);
+	
+color: white;
+width:40%;
+text-align:center;
+
+	
+bottom: 13.5vh;
+	
+margin-top: -25px; 
+	
+font-size: 22px;
+	
+font-weight:bold;
+	
+text-shadow:1px 1px 0px black;
+}
+
+
